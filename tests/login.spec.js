@@ -23,7 +23,7 @@ test.describe('Login tests to demoblaze store', () => {
     await login.fillInLoginCredentials(correctLoginData.correctUserName, correctLoginData.correctPassword);
     const userLoggedIn = await login.verifyLoggedUser();
     
-    expect (await userLoggedIn).toEqual('Log outt')
+    expect (await userLoggedIn).toEqual('Log out')
   });
 
   test.skip('Login with not existing username', async ({ page }) => {

@@ -25,6 +25,4 @@ test.describe('Cart page tests', () => {
     const cartStatus = await cart.checkProductInCart(products.samsungGalaxyS7);
     expect(await cartStatus).toBe(true);
   });
- 
-  //   3. Dodać to do jakiegoś Jenkinsa
 });
