@@ -1,0 +1,18 @@
+{
+  "name": "playwright_simple-_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npx prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.8.10",
+    "allure-playwright": "^2.10.0",
+    "prettier": "^3.0.3"
+  }
+}
